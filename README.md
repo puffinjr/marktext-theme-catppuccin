@@ -16,7 +16,7 @@
 
 Catppuccin theme for the simple and elegant markdown editor MarkText (work in progress)
 
-![](_resources/56ce987bd222b746d959af2f111d65676a7811c5.png)
+![](assets/preview.png)
 
 ## Previews
 
