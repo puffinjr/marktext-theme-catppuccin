@@ -43,9 +43,17 @@
 
   --opacity-0-8: 0.8;
 }
+::selection {
+    background-color: var(--rosewater) !important;
+    color: var(--base) !important;
+}
 
 .editor-container {
     font-family: var(--font-face) !important;
+}
+.recent-files-projects {
+    background-color: var(--base) !important;
+    color: var(--text) !important;
 }
 .container {
     background-color: var(--base) !important;
@@ -54,21 +62,109 @@
 .editor-tabs {
     background-color: var(--base) !important;
 }
-.editor-tabs div {
+.editor-tabs::after {
+    background-color: var(--base) !important;
+}
+.tabs-container > li {
+    color: var(--overlay1) !important;
+    background-color: var(--base) !important;
+}
+.tabs-container > li.active {
     background-color: var(--base) !important;
     color: var(--text) !important;
 }
+.tabs-container > li.active:after {
+    background-color: var(--mauve) !important;
+}
+
 .title-bar-editor-bg {
     background-color: var(--base) !important;
     color: var(--text) !important;
+
 }
 .side-bar {
     background-color: var(--mantle) !important;
+}
+.tree-view {
     color: var(--text) !important;
+}
+.side-bar-file.current span {
+    color: var(--mauve) !important;
+}
+.side-bar-file.current::before {
+    background-color: var(--mauve) !important;
+}
+.opened-file {
+    color: var(--text) !important;
+}
+.opened-file.active {
+    color: var(--mauve) !important;
 }
 
 
-/* FORMATS */
+/* Pseudo Elements */
+::-webkit-scrollbar {
+    background-color: inherit !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--surface0) !important;
+}
+
+
+/* Command Palette */
+
+
+/* Markdown Elements */
+.ag-paragraph {
+    color: var(--text) !important;
+}
+
+.ag-image-fail {
+    background-color: var(--mantle) !important;
+    color: var(--subtext0) !important;
+}
+
 code.ag-inline-rule {
     font-family: var(--font-mono) !important;
+    background-color: var(--mantle) !important;
+    color: var(--subtext0) !important;
+}
+pre.ag-fence-code {
+    background-color: var(--mantle) !important;
+}
+
+li.ag-task-list-item > input[type=checkbox]::before {
+    border: 2px solid var(--maroon) !important;
+    background-color: var(--base) !important;
+}
+li.ag-task-list-item > input::after {
+    color: var(--crust) !important;
+}
+li.ag-task-list-item > input.ag-checkbox-checked::before {
+    background-color: var(--maroon) !important;
+}
+#ag-editor-id a {
+    color: var(--blue) !important;
+}
+
+#ag-editor-id h1 {
+    color: var(--text) !important;
+}
+#ag-editor-id :is(h2, h3, h4, h5, h6) {
+    color: var(--subtext0) !important;
+}
+
+/* #ag-editor-id table {
+    border-collapse: separate !important;
+    border: 1px solid red !important;
+}
+td, td {
+    border: 1px solid red !important;
+} */
+
+.ag-bullet-list-item.ag-loose-list-item::marker {
+    color: var(--sapphire) !important;
+}
+.ag-bullet-list-item.ag-tight-list-item::marker {
+    color: var(--sapphire) !important;
 }
