@@ -1,2 +1,3 @@
-# marktext-theme-catppuccin
-Catppuccin theme for markdown editor MarkText
+# Catppuccin for [MarkText]([url](https://github.com/marktext/marktext))
+
+Catppuccin theme for simple and elegant markdown editor MarkText
