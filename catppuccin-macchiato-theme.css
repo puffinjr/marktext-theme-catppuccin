@@ -1,0 +1,74 @@
+* {
+    --rosewater: #f4dbd6;
+	--flamingo: #f0c6c6;
+	--pink: #f5bde6;
+	--mauve: #c6a0f6;
+	--red: #ed8796;
+	--maroon: #ee99a0;
+	--peach: #f5a97f;
+	--yellow: #eed49f;
+  	--green: #a6da95;
+	--teal: #8bd5ca;
+	--sky: #91d7e3;
+	--sapphire: #7dc4e4;
+	--blue: #8aadf4;
+	--lavender: #b7bdf8;
+	--text: #c5cff5;
+	--subtext1: #b3bce0;
+  	--subtext0: #a1aacb;
+	--overlay2: #8f97b7;
+	--overlay1: #7d84a2;
+	--overlay0: #6c728d;
+	--surface2: #5a5f78;
+	--surface1: #484c64;
+	--surface0: #363a4f;
+	--base: #24273a;
+	--mantle: #1e2030;
+	--crust: #181926;
+  --white: #D9E0EE;
+  --black: #000000;
+  --light: #C9CFFF;
+  --lighter-grey: #C3BAC6;
+  --light-grey: #988BA2;
+
+--font-face: "Noto Sans", Arial, Helvetica, sans-serif;
+  --font-mono: "Roboto Mono", Courier, monospace;
+  --font-size: 13px;
+  --icon-size: 16px;
+
+  --regular: 400;
+  --bolder: 600;
+
+  --scroll-radius: 3px;
+
+  --opacity-0-8: 0.8;
+}
+
+.editor-container {
+    font-family: var(--font-face) !important;
+}
+.container {
+    background-color: var(--base) !important;
+    color: var(--text) !important;
+}
+.editor-tabs {
+    background-color: var(--base) !important;
+}
+.editor-tabs div {
+    background-color: var(--base) !important;
+    color: var(--text) !important;
+}
+.title-bar-editor-bg {
+    background-color: var(--base) !important;
+    color: var(--text) !important;
+}
+.side-bar {
+    background-color: var(--mantle) !important;
+    color: var(--text) !important;
+}
+
+
+/* FORMATS */
+code.ag-inline-rule {
+    font-family: var(--font-mono) !important;
+}
