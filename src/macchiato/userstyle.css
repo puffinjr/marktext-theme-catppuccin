@@ -321,7 +321,37 @@ div.ag-table-bar-tools {
 .search-result-info {
     color: var(--overlay0) !important;
 }
-
+.search-bar {
+    background-color: var(--mantle) !important;
+}
+.left-arrow svg {
+    fill: var(--overlay2) !important;
+}
+.input-wrapper {
+    border: 1px solid var(--surface0) !important;
+}
+.search .input-wrapper input,
+.search .input-wrapper input::placeholder {
+    color: var(--text) !important
+}
+.button-group .button {
+    border-color: var(--surface0) !important;
+}
+.button-group .button {
+    background-color: var(--mantle) !important;
+}
+.button-group .button svg {
+    fill: var(--subtext1) !important;
+}
+.ag-format-picker {
+    background-color: var(--mantle) !important;
+}
+.ag-format-picker .item i {
+    color: var(--text) !important;
+}
+.ag-format-picker .item i i {
+    color: var(--subtext1) !important;
+}
 /* Icons and SVG */
 .left-column ul > li > svg {
     fill: var(--subtext0) !important;
